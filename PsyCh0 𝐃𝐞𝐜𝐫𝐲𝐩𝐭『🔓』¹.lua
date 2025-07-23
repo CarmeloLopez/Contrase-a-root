@@ -6,7 +6,7 @@ function HOME()
   MENU = gg.choice({
     " [📁] MENU DECRYPT 📁",
     " [🎭]  EXIT⃨ ❌"
-  }, nil, os.date("╭━━━━━━━━✩━━━━━━━━╮\n│➪᭯ᷭꫂ⃝🧸𝐓𝐂𝐌 𝐃𝐞𝐜𝐫𝐲𝐩𝐭ܓܛܟ\n│➪ t.me/Decryptt_Files\n╰━━━━━━━━✩━━━━━━━━╯"))
+  }, nil, os.date("╭━━━━━━━━✩━━━━━━━━╮\n│➪@The_Little_PsyCh0 \n│➪ t.me/Decryptt_Files\n╰━━━━━━━━✩━━━━━━━━╯"))
   if MENU == nil then
   else
     if MENU == 1 then
@@ -981,7 +981,7 @@ local result = {
 
   }
   
-      local message = "```makefile\n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ ᭯ᷭꫂ⃝🧸𝐓𝐂𝐌 𝐃𝐞𝐜𝐫𝐲𝐩𝐭ܓܛܟ\n├➢ t.me/Decryptt_Files\n╰───────────────────╯"
+      local message = "```makefile \n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ @The_Little_PsyCh0 \n├➢ t.me/Decryptt_Files\n╰───────────────────╯"
       for index, keys in ipairs(result) do
         if result[index] and result[index]['DATA'] then 
           local names = result[index]['NAME']
@@ -1123,6 +1123,14 @@ gg.searchNumber(':FRONTED-', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
 local r = gg.getResults(1)
 if #r < 1 then
     
+    hc_method11 = true
+end
+end
+if hc_method11 then 
+gg.searchNumber(":1-65535@", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+local r = gg.getResults(1)
+if #r < 1 then   
+			
     hc_method10 = true
 end
 end
@@ -1968,7 +1976,7 @@ local result = {
  
   }
   
-      local message = "```makefile\n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ ᭯ᷭꫂ⃝🧸𝐓𝐂𝐌 𝐃𝐞𝐜𝐫𝐲𝐩𝐭ܓܛܟ\n├➢ t.me/Decryptt_Files\n╰───────────────────╯\n"
+      local message = "```makefile\n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ @The_Little_PsyCh0\n├➢ t.me/Decryptt_Files\n╰───────────────────╯\n"
       for index, keys in ipairs(result) do
         if result[index] and result[index]['DATA'] then 
           local names = result[index]['NAME']
@@ -2097,7 +2105,7 @@ local f = io.open("e-V2ray.txt", "r")
 local content = f:read("*all")
 f:close()
 
-content = "\n┌────────────────┑\n├➤ ᭯ᷭꫂ⃝🧸𝐓𝐂𝐌 𝐃𝐞𝐜𝐫𝐲𝐩𝐭ܓܛܟ\n├➤ ꦿ⃟🫧ᴠ2ʀᴀʏ ᴊsᴏɴꦿ⃟🫧\n├➤ ||t.me/Decryptt_Files||\n└────────────────┚\n```json\n" .. content .. "\n```"
+content = "\n┌────────────────┑\n├➤ @The_Little_PsyCh0\n├➤ ꦿ⃟🫧ᴠ2ʀᴀʏ ᴊsᴏɴꦿ⃟🫧\n├➤ ||t.me/Decryptt_Files||\n└────────────────┚\n```json\n" .. content .. "\n```"
 
 local f = io.open("e-V2ray.txt", "w")
 f:write(content)
@@ -2495,7 +2503,7 @@ message = message .. '\n├─────────────────�
           message = message..names.. " `"..value.. "`\n"
            end
             end
-            message = message.. "├───────────────────────\n│𝐃𝐞𝐜𝐫𝐲𝐩𝐭𝐁𝐲 : ᭯ᷭꫂ⃝🧸𝐓𝐂𝐌┊𝐃𝐞𝐜𝐫𝐲𝐩𝐭『🔓』\n╰───────────────────────"
+            message = message.. "├───────────────────────\n│𝐃𝐞𝐜𝐫𝐲𝐩𝐭𝐁𝐲 : @The_Little_PsyCh0『🔓』\n╰───────────────────────"
       gg.alert(message, "COPY TO CLIPBOARD")
       io.open('/sdcard/socksip.txt', 'w'):write(message)
       gg.copyText(message, false)
@@ -2951,7 +2959,7 @@ content = string.gsub(content, "^%s*(.-)%s*$", "%1")
  f:close()
 
 local startMessage = "```JSON\n┏━━━━━━━━━━━━━━━━\n┃𝐍𝐀𝐏𝐒𝐓𝐄𝐑𝐍𝐄𝐓\n┃𝐆𝐫𝐨𝐮𝐩: t.me/Decryptt_Files\n┣━━━━━━━━━━━━━━━━\n"
-local endMessage = "┣━━━━━━━━━━━━━━━━\n┃𝐃𝐞𝐜𝐫𝐲𝐩𝐭 𝐁𝐲:  ᭯ᷭꫂ⃝🧸𝐓𝐂𝐌┊𝐃𝐞𝐜𝐫𝐲𝐩𝐭『🔓』\n┗━━━━━━━━━━━━━━━━\n```\n"
+local endMessage = "┣━━━━━━━━━━━━━━━━\n┃𝐃𝐞𝐜𝐫𝐲𝐩𝐭 𝐁𝐲: @The_Little_PsyCh0『🔓』\n┗━━━━━━━━━━━━━━━━\n```\n"
 
 local alertMessage = startMessage
 
