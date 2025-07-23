@@ -176,7 +176,7 @@ local cfgRegex = {
 }
 }
     
-      local message = "\n 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈\n        \n        @The_Little_PsyCh0  \n\n"
+      local message = "\n 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈\n        \n        Decrypt for: @The_Little_PsyCh0  \n\n"
   
       for index, value in ipairs(tbl) do
           
@@ -769,7 +769,7 @@ function save(data)
         }
     }
 
-      local message = "Decrypt for @The_Little_PsyCh0"
+      local message = ""
   
       for index, value in ipairs(tbl) do
           
