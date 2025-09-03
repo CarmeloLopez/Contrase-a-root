@@ -1976,7 +1976,7 @@ local result = {
  
   }
   
-      local message = "```makefile\n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ @The_Little_PsyCh0\n├➢ t.me/Decryptt_Files\n╰───────────────────╯\n"
+      local message = "```\n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ t.me/The_Little_PsyCh0\n├➢ t.me/+bK8XHh6ZVxZlYTBh\n╰───────────────────╯\n"
       for index, keys in ipairs(result) do
         if result[index] and result[index]['DATA'] then 
           local names = result[index]['NAME']
@@ -2088,7 +2088,7 @@ gg.searchNumber(':{\n		"inbounds":', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 
     gg.alert("Decryption failed use Clear/Reset Config and reimport the file")
     gg.processResume()
     gg.toast("  𝐃𝐞𝐜𝐫𝐲𝐩𝐭 𝐅𝐚𝐢𝐥𝐞𝐝!  ")
-    print("SAYANG KAMU @XWanOff1😘")
+    print("t.me/The_Little_PsyCh0😂")
    os.exit()
   end
   local r = gg.getResults(4)
@@ -2105,7 +2105,7 @@ local f = io.open("e-V2ray.txt", "r")
 local content = f:read("*all")
 f:close()
 
-content = "\n┌────────────────┑\n├➤ @The_Little_PsyCh0\n├➤ ꦿ⃟🫧ᴠ2ʀᴀʏ ᴊsᴏɴꦿ⃟🫧\n├➤ ||t.me/Decryptt_Files||\n└────────────────┚\n```json\n" .. content .. "\n```"
+content = "\n┌────────────────┑\n├➤ t.me/The_Little_PsyCh0\n├➤ ꦿ⃟🫧ᴠ2ʀᴀʏ ᴊsᴏɴꦿ⃟🫧\n├➤ ||t.me/+bK8XHh6ZVxZlYTBh||\n└────────────────┚\n```\n" .. content .. "\n```"
 
 local f = io.open("e-V2ray.txt", "w")
 f:write(content)
@@ -2492,7 +2492,7 @@ local result = {
   
   local wan = os.date("%d/%m/%Y %I:%M:%S")
        local message = "╭───────────────────────\n"
-message = message.. '│𝐒𝐎𝐂𝐊𝐒𝐈𝐏\n│𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 : t.me/Decryptt_Files\n│𝐃𝐚𝐭𝐞 : '..wan..''
+message = message.. '│𝐒𝐎𝐂𝐊𝐒𝐈𝐏\n│𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 : t.me/+bK8XHh6ZVxZlYTBh\n│𝐃𝐚𝐭𝐞 : '..wan..''
 message = message .. '\n├───────────────────────\n'
       for index, keys in ipairs(result) do
 
@@ -2503,7 +2503,7 @@ message = message .. '\n├─────────────────�
           message = message..names.. " `"..value.. "`\n"
            end
             end
-            message = message.. "├───────────────────────\n│𝐃𝐞𝐜𝐫𝐲𝐩𝐭𝐁𝐲 : @The_Little_PsyCh0『🔓』\n╰───────────────────────"
+            message = message.. "├───────────────────────\n│𝐃𝐞𝐜𝐫𝐲𝐩𝐭𝐁𝐲 : t.me/The_Little_PsyCh0『🔓』\n╰───────────────────────"
       gg.alert(message, "COPY TO CLIPBOARD")
       io.open('/sdcard/socksip.txt', 'w'):write(message)
       gg.copyText(message, false)
@@ -2958,8 +2958,8 @@ content = string.gsub(content, "^%s*(.-)%s*$", "%1")
  f:write(content)
  f:close()
 
-local startMessage = "```JSON\n┏━━━━━━━━━━━━━━━━\n┃𝐍𝐀𝐏𝐒𝐓𝐄𝐑𝐍𝐄𝐓\n┃𝐆𝐫𝐨𝐮𝐩: t.me/Decryptt_Files\n┣━━━━━━━━━━━━━━━━\n"
-local endMessage = "┣━━━━━━━━━━━━━━━━\n┃𝐃𝐞𝐜𝐫𝐲𝐩𝐭 𝐁𝐲: @The_Little_PsyCh0『🔓』\n┗━━━━━━━━━━━━━━━━\n```\n"
+local startMessage = "```\n┏━━━━━━━━━━━━━━━━\n┃𝐍𝐀𝐏𝐒𝐓𝐄𝐑𝐍𝐄𝐓\n┃𝐆𝐫𝐨𝐮𝐩: t.me/+bK8XHh6ZVxZlYTBh\n┣━━━━━━━━━━━━━━━━\n"
+local endMessage = "┣━━━━━━━━━━━━━━━━\n┃𝐃𝐞𝐜𝐫𝐲𝐩𝐭 𝐁𝐲: t.me/The_Little_PsyCh0『🔓』\n┗━━━━━━━━━━━━━━━━\n```\n"
 
 local alertMessage = startMessage
 
@@ -3041,7 +3041,7 @@ print ([[
 ⢀⠈⠀⡁⠈⡀⠐⠀⠂⠙⠀⡀⢀⠀⢀⠀⠀⡀⠀⢀⠀⠃⢀⠀⠄⠂⢀⠀⠠⠀
 
 ]])
-  gg.toast('my tele @Snow_FaLL_upp :)', true)
+  gg.toast('my acount: t.me/The_Little_PsyCh0 :)', true)
   gg.skipRestoreState()
   gg.setVisible(true)
   os.exit()
