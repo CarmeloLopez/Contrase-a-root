@@ -981,7 +981,7 @@ local result = {
 
   }
   
-      local message = "```makefile \n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ @The_Little_PsyCh0 \n├➢ t.me/Decryptt_Files\n╰───────────────────╯"
+      local message = "```Datos \n╭ · • 𝙃𝙏𝙏𝙋 𝘾𝙐𝙎𝙏𝙊𝙈 • · ╮\n├➢ t.me/The_Little_PsyCh0 \n├➢t.me/+bK8XHh6ZVxZlYTBh\n╰───────────────────╯"
       for index, keys in ipairs(result) do
         if result[index] and result[index]['DATA'] then 
           local names = result[index]['NAME']
