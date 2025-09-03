@@ -1,12 +1,12 @@
 gg.sleep(100)
 gg.setVisible(true)
 LuaLibraryTool = -1
-gg.alert("@The_Little_PsyCh0『🔓』\n", "𝚂𝚃𝙰𝚁𝚃", "", "𝙴𝚇𝙸𝚃")
+gg.alert("t.me/The_Little_PsyCh0『🔓』\n", "𝚂𝚃𝙰𝚁𝚃", "", "𝙴𝚇𝙸𝚃")
 function HOME()
   MENU = gg.choice({
     " [📁] MENU DECRYPT 📁",
     " [🎭]  EXIT⃨ ❌"
-  }, nil, os.date("╭━━━━━━━━✩━━━━━━━━╮\n│➪@The_Little_PsyCh0 \n│➪ t.me/Decryptt_Files\n╰━━━━━━━━✩━━━━━━━━╯"))
+  }, nil, os.date("╭━━━━━━━━✩━━━━━━━━╮\n│➪t.me/The_Little_PsyCh0 \n│➪t.me/+bK8XHh6ZVxZlYTBh\n╰━━━━━━━━✩━━━━━━━━╯"))
   if MENU == nil then
   else
     if MENU == 1 then
