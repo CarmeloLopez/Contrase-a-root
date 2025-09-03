@@ -28,7 +28,7 @@ function HttpCustom()
     "┍─────────────┑\n⎙ SLOW DNS 🟣\n┖─────────────┚",
     "┍─────────────┑\n⎙ NAPSTERNET ⚫\n┖─────────────┚",
     "Back 🔙"
-  }, nil, os.date("*╔══════❖•ೋ° °ೋ•❖══════╗*\n      𝐌𝐄𝐍𝐔 𝐇𝐂 𝑩𝒀 t.me/Decryptt_Files\n*╚══════❖•ೋ° °ೋ•❖══════╝*"))
+  }, nil, os.date("*╔══════❖•ೋ° °ೋ•❖══════╗*\n      𝐌𝐄𝐍𝐔 𝐇𝐂 𝑩𝒀 t.me/+bK8XHh6ZVxZlYTBh\n*╚══════❖•ೋ° °ೋ•❖══════╝*"))
   if httpcustommenu == 1 then
     DecSimple()
   end
