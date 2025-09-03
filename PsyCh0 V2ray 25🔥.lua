@@ -532,7 +532,7 @@ function ConfigSearcher.findConfig()
     return false
 end
 
-function t.me/The_Little_PsyCh0()
+function Theclay()
     limit = true
     gg.clearResults()
     gg.setVisible(true)
@@ -583,4 +583,4 @@ function t.me/The_Little_PsyCh0()
 end
 
 -- Ejecutar función principal
-t.me/The_Little_PsyCh0()
+Theclay()
