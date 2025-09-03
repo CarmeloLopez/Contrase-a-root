@@ -167,10 +167,10 @@ function DarkTunnel()
   -- Prepare the header
   local header = [[
 #=====! NPV TUNNEL !=====#
-https://t.me/TrueDream_MQ
-Coded : [𝐍𝐮𝐥𝐥]𝐓𝐞𝐚𝐦
+t.me/The_Little_PsyCh0
+t.me/+bK8XHh6ZVxZlYTBh
 -----------------------------
-𝙱𝚊𝚜𝚎 𝙲𝚘𝚍𝚎 𝙱𝚢: #𝙵𝚁𝙴𝙴 𝙿𝙰𝙻𝙴𝚂𝚃𝙸𝙽𝙴🇰🇼
+𝙱𝚊𝚜𝚎 𝙲𝚘𝚍𝚎 𝙱𝚢: t.me/The_Little_PsyCh0🇬🇹
 ]]
 
   -- Prepare the footer
