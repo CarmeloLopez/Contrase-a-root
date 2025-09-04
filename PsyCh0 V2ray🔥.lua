@@ -442,7 +442,7 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     table.insert(output, "```")
     table.insert(output, TextUtils.formatJson(jsonStr))
     table.insert(output, "```")
-    table.insert(output, "  D𝗲𝗰𝗿𝘆𝗽𝘁 𝗕𝘆: The_Clay")
+    table.insert(output, "  D𝗲𝗰𝗿𝘆𝗽𝘁 𝗕𝘆: @The_Little_PsyCh0")
     
     return table.concat(output, "\n")
 end
