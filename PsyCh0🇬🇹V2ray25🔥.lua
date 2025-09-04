@@ -406,12 +406,12 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     -- Header
 --    table.insert(output, "╭╮")
     table.insert(output, " 🇬🇹𝗩𝟮𝗿𝗮𝘆 + 𝗩𝗟𝗘𝗦𝗦 𝗧𝗼𝗼𝗹🔐🇬🇹")
-    table.insert(output, " 𝗖𝗼𝗱𝗲🇬🇹𝗕𝘆: @The_Little_PsyCh0")
+    table.insert(output, " 🇬🇹𝗖𝗼𝗱𝗲🇬🇹𝗕𝘆: @The_Little_PsyCh0")
     table.insert(output, "\n")
     
     -- V2Ray Settings
     table.insert(output, "")
-    table.insert(output, "  𝗩𝟮𝗥𝗔𝗬 𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 ▼")
+    table.insert(output, "  🇬🇹𝗩𝟮𝗥𝗔𝗬 𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦🇬🇹 ▼")
     table.insert(output, "```")
     table.insert(output, "  𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹: vmess/vless")
     table.insert(output, "  𝗮𝗱𝗱𝗿𝗲𝘀𝘀: " .. (info.address or "𝒩𝓊𝓁𝓁"))
@@ -424,12 +424,12 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     table.insert(output, "  𝘀𝗲𝗿𝘃𝗲𝗿𝗡𝗮𝗺𝗲: " .. (info.serverName and info.serverName ~= "" and info.serverName or "𝒩𝓊𝓁𝓁"))
     table.insert(output, "  𝘄𝘀_𝗛𝗼𝘀𝘁: " .. (info.host and info.host ~= "" and info.host or "𝒩𝓊𝓁𝓁"))
     table.insert(output, "  𝗣a𝘁𝗵: " .. (info.path and info.path ~= "" and info.path or "𝒩𝓊𝓁𝓁"))
-    table.insert(output, "```\n")
+    table.insert(output, "```\")
     
     -- VMESS URL
     if vmessUrl then
         table.insert(output, "")
-        table.insert(output, "  𝗩𝟮𝗥𝗔𝗬 𝗩𝗠𝗘𝗦𝗦 𝗨𝗥𝗟 ▼")
+        table.insert(output, "  🇬🇹𝗩𝟮𝗥𝗔𝗬 𝗩𝗠𝗘𝗦𝗦 𝗨𝗥𝗟🇬🇹 ▼")
         table.insert(output, "```")
         table.insert(output, vmessUrl)
         table.insert(output, "```\n")
@@ -438,7 +438,7 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     -- VLESS URL
     if vlessUrl then
         table.insert(output, "")
-        table.insert(output, "  𝗩𝟮𝗥𝗔𝗬 𝗩𝗟𝗘𝗦𝗦 𝗨𝗥𝗟 ▼")
+        table.insert(output, "  🇬🇹𝗩𝟮𝗥𝗔𝗬 𝗩𝗟𝗘𝗦𝗦 𝗨𝗥𝗟🇬🇹 ▼")
         table.insert(output, "```")
         table.insert(output, vlessUrl)
         table.insert(output, "```\n")
@@ -447,7 +447,7 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     -- DarkTunnel URL
     if darkTunnelUrl then
    --     table.insert(output, "")
-        table.insert(output, "  𝗗𝗔𝗥𝗞𝗧𝗨𝗡𝗡𝗘𝗟 𝗨𝗥𝗟 ▼")
+        table.insert(output, "  🇬🇹𝗗𝗔𝗥𝗞𝗧𝗨𝗡𝗡𝗘𝗟 𝗨𝗥𝗟🇬🇹 ▼")
         table.insert(output, "```")
         table.insert(output, darkTunnelUrl)
         table.insert(output, "```\n")
@@ -455,10 +455,10 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     
     -- Full JSON
     table.insert(output, "")
-    table.insert(output, "  𝗩𝟮𝗥𝗔𝗬 𝗔𝗟𝗟 𝗝𝗦𝗢𝗡 ▼")
-    table.insert(output, "```")
+    table.insert(output, "  🇬🇹𝗩𝟮𝗥𝗔𝗬 𝗔𝗟𝗟 𝗝𝗦𝗢𝗡🇬🇹 ▼")
+    table.insert(output, "```🇬🇹")
     table.insert(output, TextUtils.formatJson(jsonStr))
-    table.insert(output, "```")
+    table.insert(output, "🇬🇹```")
     table.insert(output, " 🇬🇹𝗗𝗲𝗰𝗿𝘆𝗽𝘁🇬🇹𝗕𝘆: @The_Little_PsyCh0")
 --    table.insert(output, "└")
     
