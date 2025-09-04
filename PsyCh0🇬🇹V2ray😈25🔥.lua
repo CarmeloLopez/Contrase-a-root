@@ -456,9 +456,9 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     -- Full JSON
     table.insert(output, "")
     table.insert(output, "  🇬🇹𝗩𝟮𝗥𝗔𝗬 𝗔𝗟𝗟 𝗝𝗦𝗢𝗡🇬🇹 ▼")
-    table.insert(output, "```🇬🇹")
+    table.insert(output, "```")
     table.insert(output, TextUtils.formatJson(jsonStr))
-    table.insert(output, "🇬🇹```")
+    table.insert(output, "```")
     table.insert(output, " 🇬🇹𝗗𝗲𝗰𝗿𝘆𝗽𝘁🇬🇹𝗕𝘆: @The_Little_PsyCh0")
 --    table.insert(output, "└")
     
