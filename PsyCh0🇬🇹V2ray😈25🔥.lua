@@ -405,8 +405,8 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     
     -- Header
 --    table.insert(output, "╭╮")
-    table.insert(output, " 🇬🇹𝗩𝟮𝗿𝗮𝘆 + 𝗩𝗟𝗘𝗦𝗦 𝗧𝗼𝗼𝗹🔐🇬🇹")
-    table.insert(output, " 🇬🇹𝗖𝗼𝗱𝗲🇬🇹𝗕𝘆: @The_Little_PsyCh0")
+    table.insert(output, " 𝗩𝟮𝗿𝗮𝘆 + 𝗩𝗟𝗘𝗦𝗦 𝗧𝗼𝗼𝗹🔐")
+    table.insert(output, " 𝗖𝗼𝗱𝗲𝗕𝘆: @The_Little_PsyCh0")
     table.insert(output, "\n")
     
     -- V2Ray Settings
@@ -459,7 +459,7 @@ function OutputGenerator.createVisual(jsonStr, vmessUrl, vmessJson, vlessUrl, vl
     table.insert(output, "```")
     table.insert(output, TextUtils.formatJson(jsonStr))
     table.insert(output, "```")
-    table.insert(output, " 🇬🇹𝗗𝗲𝗰𝗿𝘆𝗽𝘁🇬🇹𝗕𝘆: @The_Little_PsyCh0")
+    table.insert(output, " 𝗗𝗲𝗰𝗿𝘆𝗽𝘁 𝗕𝘆: @The_Little_PsyCh0")
 --    table.insert(output, "└")
     
     return table.concat(output, "\n")
